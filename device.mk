@@ -335,3 +335,8 @@ PRODUCT_PACKAGES += \
 # Remove Unwanted Packages
 PRODUCT_PACKAGES += \
     RemovePackages
+
+# Pixel Charger
+PRODUCT_PACKAGES += \
+    charger_res_images \
+    product_charger_res_images
