@@ -19,6 +19,12 @@ $(call inherit-product, vendor/realme/RM6785/RM6785-vendor.mk)
 # Additional Settings (Parts)
 $(call inherit-product-if-exists, packages/apps/AdditionalSettings/parts.mk)
 
+# vendor/extra
+WITH_GCAMGO_MOD := true
+WITH_PIXEL_CHARGER := true
+WITH_REPAINTER_INTEGRATION := true
+$(call inherit-product, vendor/extra/config.mk)
+
 # Shipping API
 PRODUCT_SHIPPING_API_LEVEL := 29
 
