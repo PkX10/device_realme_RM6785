@@ -16,6 +16,9 @@ PRODUCT_COMPRESSED_APEX := false
 # Call proprietary blob setup
 $(call inherit-product, vendor/realme/RM6785/RM6785-vendor.mk)
 
+# Additional Settings (Parts)
+$(call inherit-product-if-exists, packages/apps/AdditionalSettings/parts.mk)
+
 # Shipping API
 PRODUCT_SHIPPING_API_LEVEL := 29
 
