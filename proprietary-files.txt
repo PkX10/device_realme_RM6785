@@ -2700,6 +2700,7 @@ vendor/etc/init/vibrator-mtk-default.rc|63f7577081fc8aca1d3cae9a32a77021ff041796
 -vendor/bin/hw/hostapd|22d0e25a3779bd1a8335402f689e5ed2d3eca83a
 
 # Wifi
+odm/etc/wifi/txpowerctrl.cfg
 -vendor/bin/hostapd_cli
 -vendor/bin/hw/wpa_supplicant
 -vendor/bin/stp_dump3
