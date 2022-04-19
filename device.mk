@@ -16,8 +16,9 @@ PRODUCT_COMPRESSED_APEX := false
 # Call proprietary blob setup
 $(call inherit-product, vendor/realme/RM6785/RM6785-vendor.mk)
 
-# Additional Settings (Parts)
-$(call inherit-product-if-exists, packages/apps/AdditionalSettings/parts.mk)
+# Parts
+$(call inherit-product-if-exists, packages/apps/RealmeParts/parts.mk)
+$(call inherit-product-if-exists, packages/apps/RealmeDirac/dirac.mk)
 
 # vendor/extra
 WITH_GCAMGO_MOD := true
