@@ -98,15 +98,6 @@ persist.log.tag.PowerHalWifiMonitor=S
 persist.log.tag.RILMUXD=S
 persist.log.tag.UxUtility=S
 
-# Media
-media.stagefright.enable-aac=true
-media.stagefright.enable-fma2dp=true
-media.stagefright.enable-http=true
-media.stagefright.enable-player=true
-media.stagefright.enable-qcp=true
-media.stagefright.enable-scan=true
-media.stagefright.thumbnail.prefer_hw_codecs=true
-
 # MTK
 ro.vendor.mediatek.platform=MT6785
 
