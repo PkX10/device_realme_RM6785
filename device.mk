@@ -340,3 +340,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     charger_res_images \
     product_charger_res_images
+
+# RealmeParts
+$(call inherit-product,$(LOCAL_PATH)/parts.mk
