@@ -208,3 +208,6 @@ ro.soc.model=MT6785
 ro.zram.first_wb_delay_mins=1440
 ro.zram.mark_idle_delay_mins=60
 ro.zram.periodic_wb_delay_hours=24
+
+# Fingerprint
+fingerprint.nocleanup=true
