@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/nad_RM6785.mk
+    $(LOCAL_DIR)/spark_RM6785.mk
 
 COMMON_LUNCH_CHOICES := \
-    nad_RM6785-user \
-    nad_RM6785-userdebug \
-    nad_RM6785-eng
+    spark_RM6785-user \
+    spark_RM6785-userdebug \
+    spark_RM6785-eng
