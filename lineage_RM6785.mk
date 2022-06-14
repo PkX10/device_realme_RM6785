@@ -11,13 +11,30 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from device makefile
 $(call inherit-product, device/realme/RM6785/device.mk)
 
-# Inherit some common Spark OS stuff.
+# Inherit some common riceDroid stuff.
+
+# Build GAPPS by default
+WITH_GAPPS := true
+
+# disable/enable blur support, default is false
+TARGET_ENABLE_BLUR := true
+
+# UDFPS ICONS/ANIMATIONS
+TARGET_HAS_UDFPS := false
+
+# Quick tap feature
 TARGET_SUPPORTS_QUICK_TAP := true
+
+# Face Unlock
+TARGET_FACE_UNLOCK_SUPPORTED := true
+
+# Boot animation res
 TARGET_BOOT_ANIMATION_RES := 1080
-$(call inherit-product, vendor/spark/config/common_full_phone.mk)
+
+$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := spark_RM6785
+PRODUCT_NAME := lineage_RM6785
 PRODUCT_DEVICE := RM6785
 PRODUCT_BRAND := realme
 PRODUCT_MODEL := RM6785
